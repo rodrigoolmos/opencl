@@ -66,7 +66,6 @@ const char *kernel_square = "\n" \
 "       output[i] = input[i] * input[i];                                \n" \
 "	if(i==0)                                                            \n" \
 "		printf(\"%f \\n\",output[0]);									\n" \
-"	barrier(CLK_GLOBAL_MEM_FENCE) ; 									\n" \
 "}                                                                      \n" \
 "\n";
 
