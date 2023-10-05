@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
+add_definitions(-DCL_TARGET_OPENCL_VERSION=300)
 project(TuProyecto)
 
 # Especifica la versión del lenguaje C que deseas utilizar
