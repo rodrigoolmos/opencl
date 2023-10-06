@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.0)
+add_definitions(-DCL_TARGET_OPENCL_VERSION=300)
+project(TuProyecto)
+
+# Especifica la versión del lenguaje C que deseas utilizar
+set(CMAKE_C_STANDARD 11)
+
+# Agrega el ejecutable
+add_executable(mi_programa main.c)
+
+set_target_properties(mi_programa PROPERTIES COMPILE_FLAGS "-Dalignas=4096")
+
+# Directorio donde se encuentran las bibliotecas DLL de opencl
+target_link_libraries(mi_programa 
+PUBLIC ${OpenCL_LIBRARY} OpenCL m)
+
