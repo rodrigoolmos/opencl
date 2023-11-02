@@ -1,0 +1,6 @@
+#ifndef __MERGE_PLOTS_KERNEL__
+#define __MERGE_PLOTS_KERNEL__
+
+const char *KernelSource = "@MERGE_PLOT_KERNEL@";
+
+#endif	  //__MERGE_PLOTS_KERNEL__
