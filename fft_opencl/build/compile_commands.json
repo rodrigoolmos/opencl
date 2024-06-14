@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rodrigo/Documentos/opencl/gpu_integrated_zero_coppy/build",
+  "command": "/usr/bin/gcc -DCL_TARGET_OPENCL_VERSION=300  -g -std=gnu11 -o CMakeFiles/mi_programa.dir/main.c.o -c /home/rodrigo/Documentos/opencl/gpu_integrated_zero_coppy/main.c",
+  "file": "/home/rodrigo/Documentos/opencl/gpu_integrated_zero_coppy/main.c"
+}
+]
