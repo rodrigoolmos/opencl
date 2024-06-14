@@ -1,1 +1,0 @@
-/usr/bin/gcc -g -rdynamic CMakeFiles/mi_programa.dir/main.c.o -o mi_programa  -lOpenCL -lm 

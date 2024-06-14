@@ -1,3 +1,0 @@
-/home/rodrigo/Documentos/opencl/gpu_integrated_zero_coppy/build/CMakeFiles/mi_programa.dir
-/home/rodrigo/Documentos/opencl/gpu_integrated_zero_coppy/build/CMakeFiles/edit_cache.dir
-/home/rodrigo/Documentos/opencl/gpu_integrated_zero_coppy/build/CMakeFiles/rebuild_cache.dir
